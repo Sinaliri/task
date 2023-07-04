@@ -1,0 +1,22 @@
+.ProductTags {
+  margin-top: 20px;
+  width: 100%;
+  font: {
+    size: 14px;
+  }
+  .storename {
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+  .link {
+    display: flex;
+    color: #86bc42;
+    border-bottom: 1px dotted #86bc42;
+
+    font: {
+      size: 14px;
+    }
+  }
+}
