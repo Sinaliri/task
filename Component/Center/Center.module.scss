@@ -1,0 +1,116 @@
+.Center {
+  // background-color: greenyellow;
+  width: 686px;
+  text-align: right;
+  .title {
+    font: {
+      size: 24px;
+      weight: 700;
+    }
+    color: #383838;
+  }
+  .rating {
+    justify-content: space-between;
+    .info {
+      color: #dd794f;
+      font: {
+        size: 16px;
+        weight: 400;
+      }
+    }
+  }
+  .desc {
+    font: {
+      size: 16px;
+      weight: 400;
+    }
+    color: #6b6b6b;
+  }
+  .detail {
+    margin: 21px 0;
+    h4 {
+      font: {
+        size: 14px;
+        weight: 400;
+      }
+      color: #6b6b6b;
+      span {
+        color: #383838;
+      }
+    }
+  }
+  .orderSection {
+    width: 100%;
+    justify-content: space-between;
+    .left {
+      //   width: 30%;
+      background-color: red;
+      .discount {
+        flex-direction: row;
+      }
+      .price {
+        display: flex;
+        text-align: right;
+        // flex-direction: row-reverse;
+      }
+      .addtobasket {
+        border-radius: 4px;
+        span {
+          font: {
+            size: 16px;
+            weight: 700;
+          }
+          color: #fff;
+          margin-right: 5px;
+        }
+        width: 238px;
+        height: 58px;
+        justify-content: center;
+        align-items: center;
+        background-color: #86bc42;
+      }
+    }
+    .right {
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .buttoncontainer {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        button {
+          width: 72px;
+          height: 32px;
+          background-color: #fff;
+          border: 1px solid #c4c6c2;
+          border-radius: 4px;
+          color: #c4c6c2;
+        }
+      }
+      .Counter {
+        height: 58px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: red;
+        padding: 10px 16px;
+        .decrease {
+          width: 24px;
+          height: 24px;
+          border-radius: 4px;
+          color: white;
+          cursor: pointer;
+        }
+        .increase {
+          width: 24px;
+          height: 24px;
+          border-radius: 4px;
+          color: white;
+          background-color: #6b6b6b;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
